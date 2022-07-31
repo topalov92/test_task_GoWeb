@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1304px;
+    margin: 0 auto;
+}
