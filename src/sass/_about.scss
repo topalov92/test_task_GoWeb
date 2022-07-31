@@ -1,0 +1,67 @@
+/* About */
+
+.about {
+    margin: 0;
+}
+
+.about__inner {
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.about__photo {}
+
+/* 
+.about__photo{
+    background: url("../images/home/people.jpg") center no-repeat;
+        background-size: cover;
+} */
+
+.about__content {
+    width: 690px;
+    height: 460px;
+    background-color: #28A745;
+}
+
+.about__subtitle {
+    margin-left: 20px;
+    margin-top: 70px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+    color: #FFFFFF;
+}
+
+.about__title {
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    color: #FFFFFF;
+}
+
+.about__text {
+    margin-left: 20px;
+    margin-top: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.btn--whiteborder {
+    margin-top: 24px;
+    margin-left: 20px;
+    border: 1px solid white;
+    background-color: #28A745;
+}
+
+.btn--whiteborder:hover {
+    background-color: #049a27;
+}

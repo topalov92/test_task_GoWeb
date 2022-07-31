@@ -1,0 +1,289 @@
+body {
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+   -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+        margin: 0;
+    }
+
+/* Container */
+.container {
+width: 100%;
+max-width: 1304px;
+margin: 0 auto;
+}
+
+
+/* Header */
+
+.header {
+    width: 100%;
+    height: 70px;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1000;
+
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+padding: 20px 0;
+align-items: center;
+}
+
+.header__icon {text-align: center;
+    fill:#28A745;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.2;
+    text-decoration: none;
+    
+}
+
+.logo__primary {
+    color: #28A745;
+}
+
+.header__logo{
+transition: 0.7s;
+}
+
+.header__logo:hover{
+    
+        transform: scale(1.2);
+}
+
+/*  Navigation */
+.nav {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav__link {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+    
+    transition: 0.1s linear;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:after{
+    
+    content: """";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin-top: 5px;
+   
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+
+.nav__link:hover:after {
+    display: block;
+    background-color: #28a746ac;
+}
+
+
+
+/* Hero */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 70px;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("..//images/home/showcase.jpg") center no-repeat;
+    background-size: cover;
+    height: 768px;
+}
+
+.hero__title {
+margin: 0 0 24px;
+
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 55px;
+        line-height: 1.2;
+        color: #E9E9E9;
+}
+
+.hero__inner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.hero__subtitle {
+    margin-bottom: 32px;
+    font-weight: 400;
+        font-size: 22px;
+        line-height: 1.68;
+        color: #E9E9E9;
+        
+}
+
+.button {
+    margin: auto;
+    padding: 9px 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0px;
+
+    transition: background 0.1s linear;
+        
+}
+
+.btn--green {
+    background-color: #28A745;;
+}
+
+.btn--green:hover {
+    background-color:#049a27 ;
+}
+
+.hero__button-arrow{
+    margin-right: 4px;
+}
+
+
+
+.about {
+    margin:0;
+}
+
+.about__inner{
+    
+display: flex;
+    align-items:flex-start;
+}
+
+.about__photo {
+
+}
+
+/* 
+.about__photo{
+    background: url("../images/home/people.jpg") center no-repeat;
+        background-size: cover;
+} */
+
+.about__content {
+    width: 690px;
+    height: 460px;
+    background-color: #28A745;
+}
+
+.about__subtitle {
+    margin-left: 20px;
+    margin-top: 70px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+        font-size: 20px;
+        line-height: 1.65;
+        color: #FFFFFF;
+}
+
+.about__title{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+        font-size: 38px;
+        line-height: 1.26;
+        color: #FFFFFF;
+}
+
+.about__text {
+    margin-left: 20px;
+    margin-top: 24px;
+    font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;   
+        color: #FFFFFF;
+}
+
+.btn--whiteborder{
+    margin-top: 24px;
+    margin-left: 20px;
+    border: 1px solid white;
+    background-color: #28A745;
+}
+
+.btn--whiteborder:hover {
+    background-color: #049a27;
+}
+
+/* Business Cases */
+
+/* .speciality {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0;
+} */
+
+
+
+/* .speciality__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.doings-branch {
+    position: relative;
+} */
+
+.doings-branch__image {
+    padding: 20px;
+}
+
+.speciality {
+    display: grid;
+        grid-template-columns: 460px 460px 460px;
+        grid-gap: 10px;
+        background-color: #fff;
+        color: #444;
+}

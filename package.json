@@ -15,9 +15,10 @@
   "author": "Topalov Volodymyr <vtopalov.dev@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/topalov92/test_task_GoWeb/issues"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {

@@ -1,0 +1,30 @@
+/* Business Cases */
+
+/* .speciality {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0;
+} */
+
+
+
+/* .speciality__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.doings-branch {
+    position: relative;
+} */
+
+.doings-branch__image {
+    padding: 20px;
+}
+
+.speciality {
+    display: grid;
+    grid-template-columns: 460px 460px 460px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
